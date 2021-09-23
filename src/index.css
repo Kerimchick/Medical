@@ -11,3 +11,94 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+a{
+  text-decoration: none;
+}
+.logo{
+  width: 180px;
+  margin: 0 auto;
+  display: block;
+}
+.main{
+  display: flex;
+}
+.aside{
+  background-color: rgb(53, 17, 103);
+  height: 100vh;
+  position: sticky;
+  width: 20%;
+}
+.nav{
+  padding: 0;
+  list-style: none;
+}
+.nav-item a{
+  display: block;
+  color: white;
+  padding: 8px 20px;
+  border-left: 4px solid transparent;
+}
+.nav-item a.active{
+  background-color: rgb(32, 6, 66);
+  border-left: 4px solid magenta;
+}
+.header{
+  padding: 30px 15px;
+  background-color: rgba(201, 201, 201, 0.4);
+}
+.avatar{
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  display: block;
+}
+.right-side{
+  width: 80%;
+}
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col-4 {
+    width: 33.3333%;
+    padding: 0 15px;
+}
+.button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: 44px;
+  width: 149px;
+}
+.button:hover { background: rgb(53, 167, 110); }
+.button:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+.list-large{
+  justify-content: flex-end;
+}
+.btn{
+  margin-right: 10px;
+}
+.form{
+  margin-bottom: 20px;
+}
+.label-position{
+  margin-right: 10px;
+}
+.button-close-form{
+  margin-right: 10px;
+}
