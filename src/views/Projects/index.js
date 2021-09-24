@@ -84,7 +84,7 @@ const Projects = () => {
                                        {...register("start", {required: true})}/>
                             </div>
                             <div className="input-container ic2">
-                                <label htmlFor="end" className="placeholder">Start project</label>
+                                <label htmlFor="end" className="placeholder">End project</label>
                                 <input id="end" className="input" type="date"
                                        {...register("end", {required: true})}/>
                             </div>
