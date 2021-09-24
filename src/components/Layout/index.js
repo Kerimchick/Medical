@@ -2,6 +2,8 @@ import React from 'react';
 import {NavLink} from "react-router-dom";
 import logo from "./logo-medical.png"
 import avatar from "./avatar.jpg"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faQrcode, } from '@fortawesome/free-solid-svg-icons'
 
 const Layout = ({children}) => {
     return (
@@ -12,16 +14,20 @@ const Layout = ({children}) => {
                 </div>
                 <ul className="nav">
                     <li className="nav-item">
-                        <NavLink to="/tasks">Tasks ans works</NavLink>
+                        <NavLink to="/tasks"><span className="icon">
+                        <FontAwesomeIcon icon={faQrcode} /></span>Tasks ans works</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/projects">Projects</NavLink>
+                        <NavLink to="/projects"><span className="icon">
+                        <FontAwesomeIcon icon={faQrcode} /></span>Projects</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/calendar">Calendar</NavLink>
+                        <NavLink to="/calendar"><span className="icon">
+                        <FontAwesomeIcon icon={faQrcode} /></span>Calendar</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/possibilities">Possibilities</NavLink>
+                        <NavLink to="/possibilities"><span className="icon">
+                        <FontAwesomeIcon icon={faQrcode} /></span>Possibilities</NavLink>
                     </li>
                 </ul>
             </aside>
